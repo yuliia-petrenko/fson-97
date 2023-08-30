@@ -6,12 +6,30 @@
   --c-background-light: #fafafa;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--color-primery);
+  background-color: var(--c-background-light);
+  font-size: 14px;
+}
 .logo {
-  color: var(--c-primary);
+  color: var(--c-primery);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .nav-link {
   color: var(--c-primary);
+  color: var(--color-primery);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.28px;
+  text-decoration: none;
 }
 
 .nav-link:hover {
